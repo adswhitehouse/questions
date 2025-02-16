@@ -80,6 +80,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .question {
@@ -121,4 +122,14 @@ hr {
 
 .question-text-show {
   height: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 37rem) {
+  main {
+    width: 100%;
+  }
 }
